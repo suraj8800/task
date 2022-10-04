@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ /* navbar style  */
+
+ .main-nav{
+    width: 100%;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+ }
+
+ .logo{
+    display: grid;
+    background-color: black;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+ }
+
+ .menu{
+    grid-column: 3/4;
+ }
+
+ .menu-icons ul {
+    font-size: 4rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .menu-link ul {
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .login {
+    grid-column: 4/5;   
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .login a{
+    color: rgb(0, 0, 3, 0.8);
+    transition: 0.5s;
+    font-size: medium;
+    font-style: bold;
+ }
+
+ .login-icon{
+    font-size: medium;
+ }
+
+.logo h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #eee;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo h2 span{
+    font-size: 3.5rem;
+    
+}
+
+.menu-link ul li {
+    font-size: 1.8rem;
+}
+
+.menu-link ul li a{
+    color: rgb(0, 0, 3, 0.8);
+    transition: 0.5s;
+}
+
+.menu-link ul li:hover > a{
+    transform-origin: left;
+    color: rgb(0, 0, 3, 1);
+    text-decoration: underline;
+    transition: 5s;
+}
