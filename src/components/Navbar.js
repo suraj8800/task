@@ -16,39 +16,24 @@ function Navbar() {
 
         {/* menu part */}
         <div className='menu'>
-            <div className='menu-icons'>
-            <ul>
+            <ul className='icons'>
                 <li>
-                    <RiLiveLine className='live'/>
+                    <RiLiveLine/>
+                    <a>LIVE</a>
                 </li>
                 <li>
                     <MdCardMembership className='membership'/>
+                    <a>MEMBERSHIPS</a>
                 </li>
                 <li>
                     <BiRun className='run'/>
+                    <a>PLANS</a>
                 </li>
                 <li>
                     <BsGrid className='grid'/>
+                    <a>MORE</a>
                 </li>
             </ul>
-            </div>
-            <div className='menu-link'>
-            <ul>
-                <li>
-                    <a href='#'>LIVE</a>
-                </li>
-                <li>
-                    <a href='#'>MEMBERSHIPS</a>
-                </li>
-                <li>
-                    <a href='#'>PLANS</a>
-                </li>
-                <li>
-                    <a href='#'>MORE</a>
-                </li>
-            </ul>
-            </div>
-            
         </div>
 
         {/* login part */}
