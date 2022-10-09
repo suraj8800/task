@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiFillRightCircle} from 'react-icons/ai'
 // import './Home.css'
-import './animation.css'
+import './home.css'
 function home() {
   return (
     <div className='container'>
